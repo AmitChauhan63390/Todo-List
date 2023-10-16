@@ -108,3 +108,47 @@ ul li span{
 ul li span:hover{
     background:#edeef0;
 }
+
+@media (max-width: 400px) {
+    button {
+        width: 100%; /* Make the button take the full width of the container */
+        padding: 16px; /* Reduce the padding to make it fit within the container */
+    }
+    
+}
+
+@media (max-width: 300px) {
+    .row {
+        flex-direction: column; /* Stack the input and button vertically */
+        padding-left:0px;
+    }
+    input{
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+
+    /* .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background:#edeef0 ;
+        border-radius: 30px;
+        
+        margin-bottom: 25px;
+    } */
+
+    button {
+        width: 100%; /* Take the full width of the container */
+        margin-top: 10px; /* Add some spacing between the input and button */
+        padding: 16px; /* Adjust padding to fit within the container */
+        border-radius: 0 0 30px 30px;
+    }
+}
+
+
+
+
+
+
+
