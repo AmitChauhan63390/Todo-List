@@ -117,7 +117,7 @@ ul li span:hover{
     
 }
 
-@media (max-width: 300px) {
+@media (max-width: 330px) {
     .row {
         flex-direction: column; /* Stack the input and button vertically */
         padding-left:0px;
@@ -127,17 +127,6 @@ ul li span:hover{
         padding-top: 20px;
     }
     
-
-    /* .row{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background:#edeef0 ;
-        border-radius: 30px;
-        
-        margin-bottom: 25px;
-    } */
-
     button {
         width: 100%; /* Take the full width of the container */
         margin-top: 10px; /* Add some spacing between the input and button */
